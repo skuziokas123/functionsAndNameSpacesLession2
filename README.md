@@ -12,4 +12,4 @@ Stack trace:
 #1 {main}
   thrown in D:\Projects\n-spring-2019\2-paskaita\namu-darbai\src\functions_strict.php on line 11
   
-   Ji įvyko todėl, kad funkcija gražino float tipo rezultatą, nors buvo deklaruota, kad gražins integer.
+   Klaida įvyko todėl, kad funkcija gražino float tipo rezultatą, nors buvo deklaruota, kad gražins integer (3+2.2+1=6.2).
