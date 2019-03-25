@@ -2,7 +2,7 @@
  * Kodėl Nfq\Akademija\Soft\calculateHomeWorkSum(3, 2.2, ‘1’) yra 6?
  
  calculateHomeWorkSum(int…$numbers): int; #po Nfq\Akademija\Soft namespace;
- Prieš funkcijos argumentus yra nurodytas int tipas, kuris 2.2 paverčia į 2, o '1' į 1. 3+2+1=6
+ Prieš funkcijos argumentus yra nurodytas int tipas, kuris 2.2 paverčia į 2, o '1' į 1 (3+2+1=6). 
  
  * Kas ir kodėl nutiko bandant kviesti: Nfq\Akademija\Strict\calculateHomeWorkSum(3, 2.2, ‘1’)?
  
