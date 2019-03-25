@@ -9,5 +9,11 @@
 		"src/functions_not_typed.php",
 		"src/functions_soft.php"
 	]
+  },
+  "require": {
+        "php": ">=7.1.0"
+  },
+  "require-dev": {
+        "phpunit/phpunit": "*.*.*"
   }
 }
