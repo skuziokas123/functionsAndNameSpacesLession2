@@ -2,11 +2,11 @@
 
 namespace Nfq\Akademija\Not_Typed {
 
-	function calculateHomeWorkSum($numbers):int{
+	function calculateHomeWorkSum($number1, $number2, $number3):int{
 		$calcSum=0;
-		foreach ($numbers as $num){
-			$calcSum=$calcSum+$num;
-		}
+		
+		$calcSum=$number1+$number2+$number3;
+		
 		return $calcSum;
 	}
 }

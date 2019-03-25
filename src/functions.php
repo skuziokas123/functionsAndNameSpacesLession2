@@ -2,11 +2,11 @@
 
 namespace Nfq\Akademija {
 
-	function calculateHomeWorkSum($numbers){
+	function calculateHomeWorkSum($number1, $number2, $number3){
 		$calcSum=0;
-		foreach ($numbers as $num){
-			$calcSum=$calcSum+$num;
-		}
+		
+		$calcSum=$number1+$number2+$number3;
+		
 		return $calcSum;
 	}
 }
