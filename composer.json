@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Nfq\\Akademija\\": "src/"
+    },
+	"files": [
+        "src/functions_strict.php",
+		"src/functions.php",
+		"src/functions_not_typed.php",
+		"src/functions_soft.php"
+	]
+  }
+}
